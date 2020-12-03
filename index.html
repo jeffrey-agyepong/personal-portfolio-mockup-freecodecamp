@@ -13,12 +13,17 @@
 
 <body>
   <nav class="blue darken-4" role="navigation" id="navbar">
-    <div class="nav-wrapper cf">
+    <div class="nav-wrapper container">
       <a href="#welcome-section" id="site-name">CONCISE WEB DESIGNS</a>
-      <ul class="right">
+      <ul class="right hide-on-med-and-down">
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+      <ul id="nav-mobile" class="sidenav blue lighten-1">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
   </nav>
 
@@ -28,7 +33,7 @@
       <section class="section no-pad-bot">
         <div class="container">
           <br><br>
-          <img class="logo-cwd" src="logo.png" alt="">
+          <img class="logo-cwd responsive-img" src="logo.png" alt="">
 
 
       </section>
@@ -40,34 +45,38 @@
     <div class="grid-container">
 
       <div class="project-tile teal darken-1">
-        <a href="https://metal-music-hub.netlify.app/"><img src="mmh.PNG" alt="Metal Music Hub" class="project-img"></a>
+        <a href="https://metal-music-hub.netlify.app/"><img class="responsive-img" src="mmh.PNG" alt="Metal Music Hub"
+            class="project-img"></a>
         <h5 class="center">Metal Music Hub</h5>
       </div>
 
       <div class="project-tile teal darken-1">
-        <a href="https://naturalcleaningcrew.netlify.app/"><img src="home.PNG" alt="Natural Cleaning Crew"
-            class="project-img"></a>
+        <a href="https://naturalcleaningcrew.netlify.app/"><img class="responsive-img" src="home.PNG"
+            alt="Natural Cleaning Crew" class="project-img"></a>
         <h5 class="center
       ">Natural Cleaning Crew</h5>
       </div>
       <div class="project-tile teal darken-1">
-        <a href="https://sutechualumni.org/"><img src="tech.PNG" alt="Sutech Alumni" class="project-img"></a>
+        <a href="https://sutechualumni.org/"><img class="responsive-img" src="tech.PNG" alt="Sutech Alumni"
+            class="project-img"></a>
         <h5 class="center
       ">Sutech Alumni</h5>
       </div>
       <div class="project-tile teal darken-1">
-        <a href="https://pastorrobereacts.com/"><img src="robreacts.PNG" alt="Pastor Rob Reacts"
+        <a href="https://pastorrobereacts.com/"><img class="responsive-img" src="robreacts.PNG" alt="Pastor Rob Reacts"
             class="project-img"></a>
         <h5 class="center
       ">Pastor Rob Reacts</h5>
       </div>
       <div class="project-tile teal darken-1">
-        <a href="https://my-tunes-j-a.vercel.app/"><img src="mytunes.PNG" alt="myTunes" class="project-img"></a>
+        <a href="https://my-tunes-j-a.vercel.app/"><img class="responsive-img" src="mytunes.PNG" alt="myTunes"
+            class="project-img"></a>
         <h5 class="center
       ">myTunes</h5>
       </div>
       <div class="project-tile teal darken-1">
-        <a href="https://fallenbynature.com/"><img src="fallen.PNG" alt="Fallen By Nature" class="project-img"></a>
+        <a href="https://fallenbynature.com/"><img class="responsive-img" src="fallen.PNG" alt="Fallen By Nature"
+            class="project-img"></a>
         <h5 class="center
       ">Fallen By Nature</h5>
       </div>
@@ -100,6 +109,8 @@
     <hr />
     <footer>**This is a mockup portfolio. Copyright &copy; 2020 <a href="https://concisewebdesign.site123.me/"> Concise
         Web Design</a></footer>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="materialize.js"></script>
     <script src="app.js"></script>
 </body>
 
